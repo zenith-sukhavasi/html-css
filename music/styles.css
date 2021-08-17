@@ -1,0 +1,146 @@
+.showcase{
+    /* background-image: url(showcase.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background: url(showcase.jpeg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+position: relative;
+top:5%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+body{
+    color: white;
+    height: 100vh;
+width: 100%;
+position: relative;
+top: -12px;
+margin: 0px;
+overflow-x: hidden;
+font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+h1 h2 h3 {
+    font-family: Georgia, serif;
+    font-size: 30px;  
+  }
+header{
+    background-color: rgba(65, 60, 60, 0.952);
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+top: 0px;
+right: 0px;
+overflow: hidden;
+z-index: 10;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 14px;
+}
+a:hover{
+    color: yellow;
+}
+.head{
+    /* margin-top: 25vh; */
+    text-align: center;
+}
+.two{
+text-align: center;
+max-width: 900px;
+margin: auto;
+padding: 1%;
+/* padding-top: 2%; */
+}
+section{
+    background-color: rgb(66, 61, 61);
+   position: relative ;
+   top: 2%;
+}
+.btn{
+    display: block;
+    background-color: rgba(255, 0, 0, 0.63);
+    padding: 1%;
+    width: 150px;
+    margin: auto;
+    /* font-size: 12px; */
+
+}
+.btn2{
+    display: block;
+    background-color: rgba(7, 7, 173, 0.726);
+    padding: 1%;
+    width: 150px;
+    margin: auto;
+    /* font-size: 12px; */
+}
+.btn2:hover{
+    background-color: blue;
+    color: white;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+.mock{
+    width: 100%;
+    max-width: 800px;
+}
+.four{
+    color: black; 
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 2% 0px;
+}
+.tree{
+    /* color: black; */
+    padding: 2%;
+    text-align: center;
+    background: url(nightsky.jpeg) no-repeat bottom/cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.last{
+    width: 80%;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.788);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    max-width: 800px;
+    /* font-size: 12px; */
+}
+.last img{
+    width:  100%;
+}
+footer{
+    background-color: rgba(65, 60, 60, 0.952);
+    text-align: center;
+    padding: 0.5%;
+}
+footer h3{
+    margin: unset;
+}
+@media screen and (max-width:700px) {
+    .second{
+        display: none;
+    }
+    .last{
+        display: block;
+    }
+}
